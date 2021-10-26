@@ -140,6 +140,7 @@ body {
     justify-content: space-between;
     height: 10%;
     align-items: center;
+    transition: 200ms linear;
     margin-top: 10%;
 }
 .items img {
@@ -163,5 +164,10 @@ body {
 .plus h2{
     color:rgb(5, 196, 107) ;
     
+}
+
+.items:hover {
+    background-color: rgba(253, 203, 110,0.1);
+    transition: 200ms linear;
 }
     /* rightside  */
